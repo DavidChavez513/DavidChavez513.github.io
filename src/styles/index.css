@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('cards.css');
+@import url('colors.css');
+@import url('container.css');
+@import url('images.css');
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* To adapt for all space */
+    font-family: "Roboto", serif;
+    font-weight: 150;
+    color: var(--text-color);
+    background: linear-gradient(to bottom, white, var(--background-color));
+
+}
+
+h2, h3, h4 {
+    margin: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+
+    color: var(--head-text-color);
+}
+
+header{
+    /* Size options */
+    width: 97%; /* All attributes of size on percentage */
+    max-width: 100%;
+    height: 10%;
+    margin: 1% 1%;
+    padding: 1% 0.5%;
+
+    /* Center objects */
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+    /* Colors and style */
+    background-color: #4169E1;
+    color: var(--headers-text-color);
+}
+
+footer {
+    max-width: 100%;
+    height: 25%;
+    padding: 1% 0.5%;
+
+    /* Center objects */
+    justify-content: left;
+    display: flex;
+
+    /* Colors and style */
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+}

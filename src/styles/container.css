@@ -1,0 +1,14 @@
+.row-content {
+
+    /* Size for row */
+
+    /* Display configuration */
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Permite que los elementos bajen si no caben */
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
