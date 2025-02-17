@@ -1,14 +1,42 @@
 .row-content {
-
     /* Size for row */
+    width: 97%;
 
     /* Display configuration */
     display: flex;
     flex-wrap: wrap;
 
+    margin: 0.5rem 1rem;
+
     /* Permite que los elementos bajen si no caben */
     gap: 10px;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.about-container {
+
+    width: 70%;
+
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: space-between; /* Espacio entre la imagen y el texto */
+    margin: 1rem;
+
+}
+
+.column-content {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: space-between; /* Espacio entre la imagen y el texto */
+    margin: 3rem;
+
+    flex: 1; /* Hace que el texto ocupe el resto del espacio disponible */
+    margin-left: 1rem; /* Espacio entre la imagen y el texto */
+    display: flex;
+    flex-direction: column; /* Organiza los elementos dentro de la columna */
+    gap: 1rem; /* Espacio entre los elementos dentro de la columna */
+
+    font-size: 2rem;
 
 }

@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('buttons.css');
 @import url('cards.css');
 @import url('colors.css');
 @import url('container.css');
 @import url('images.css');
+@import url('titles.css');
+@import url('menus.css');
 
 
 ::-webkit-scrollbar {
@@ -19,30 +22,31 @@ body {
     font-family: "Roboto", serif;
     font-weight: 150;
     color: var(--text-color);
-    background: linear-gradient(to bottom, white, var(--background-color));
+    background:  var(--background-color);
 
 }
 
 h2, h3, h4 {
     margin: 1rem;
     text-align: center;
-    font-size: 2.5rem;
-
     color: var(--head-text-color);
 }
 
-header, h1{
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+
     /* Size options */
-    width: 97%; /* All attributes of size on percentage */
-    max-width: 100%;
+    width: 100%; /* All attributes of size on percentage */
     height: 10%;
-    margin: 1% 1%;
 
     /* Center objects */
     display: flex;
+    align-items: center;
 
     /* Colors and style */
-    background-color: #4169E1;
+    background-color: var(--primary-color);
     color: var(--headers-text-color);
 }
 
@@ -56,6 +60,6 @@ footer {
     display: flex;
 
     /* Colors and style */
-    background-color: var(--footer-background-color);
+    background: var(--primary-color);
     color: var(--footer-text-color);
 }

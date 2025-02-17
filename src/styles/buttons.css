@@ -1,0 +1,19 @@
+@import url('colors.css');
+
+
+.button-link {
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    width: 15%;
+    margin: 2rem;
+
+    color: var(--headers-text-color);
+}
+
+.button-link:hover {
+    color: var(--footer-text-color);
+}
