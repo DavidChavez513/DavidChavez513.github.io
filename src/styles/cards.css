@@ -14,7 +14,6 @@
 
     border-radius: 5rem;
 
-    background: var(--cards-background);
 
     flex: 1 1 calc(15%); /* Ajusta automáticamente al espacio */
     text-align: center;

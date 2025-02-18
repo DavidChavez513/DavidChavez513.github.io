@@ -2,12 +2,13 @@
     --primary-color: #240952;
     --dark-primary-color: #330099;
     --platinad-primary-color: #4b0082;
-    --background-color: radial-gradient(circle, var(--primary-color), #000000);
+    --background-color: linear-gradient(to bottom, #000000, var(--primary-color));
+    --background-buttons-color: linear-gradient(to bottom, var(--platinad-primary-color), var(--dark-primary-color));
     --headers-text-color: #9683ec;
     --head-text-color: #9683ec;
     --footer-background-color: radial-gradient(circle, var(--primary-color), #000000);
     --footer-text-color: #9683ec;
-    --cards-background: var(--primary-color);
+    --cards-background: linear-gradient(to bottom, var(--platinad-primary-color), var(--dark-primary-color));
     --text-color: #ffffff;
     --shadow-color: #0c2843;
     --titles-background-color: #301462;

@@ -5,15 +5,50 @@
     
     text-decoration: none;
     text-align: center;
-    font-size: 1.5rem;
     font-weight: bold;
+
+    flex: 1 1 calc(15%); /* Ajusta automáticamente al espacio */
+    text-align: center;
+
 
     width: 15%;
     margin: 2rem;
+    padding: 1rem;
 
     color: var(--headers-text-color);
 }
 
 .button-link:hover {
+
+    border-radius: 1.5rem;
+
+    background: var(--background-buttons-color);
+    color: var(--footer-text-color);
+}
+
+.photo-text-button {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1 1 calc(15%); /* Ajusta automáticamente al espacio */
+    text-align: center;
+
+
+    width: 25%;
+    margin: 0.5rem 0.5rem;
+    padding: 0.7rem;
+
+    color: var(--headers-text-color);
+}
+
+.photo-text-button:hover {
+
+    border-radius: 3rem;
+    background: var(--background-buttons-color);
     color: var(--footer-text-color);
 }

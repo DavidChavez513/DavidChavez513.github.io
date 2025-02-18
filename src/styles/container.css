@@ -14,29 +14,25 @@
     align-items: center;
 }
 
-.about-container {
 
-    width: 70%;
-
-    display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
-    justify-content: space-between; /* Espacio entre la imagen y el texto */
-    margin: 1rem;
-
-}
 
 .column-content {
     display: flex;
     align-items: center; /* Centra verticalmente el contenido */
-    justify-content: space-between; /* Espacio entre la imagen y el texto */
-    margin: 3rem;
-
-    flex: 1; /* Hace que el texto ocupe el resto del espacio disponible */
-    margin-left: 1rem; /* Espacio entre la imagen y el texto */
-    display: flex;
+    justify-content: center; /* Espacio entre la imagen y el texto */
     flex-direction: column; /* Organiza los elementos dentro de la columna */
-    gap: 1rem; /* Espacio entre los elementos dentro de la columna */
+    text-align: justify;
 
     font-size: 2rem;
+    gap: 2rem;
+    margin: 2rem;
+    max-width: 50%;
+
+}
+
+.counter-box {
+
+    width: 25%;
+    font-size: 2.5rem;
 
 }
