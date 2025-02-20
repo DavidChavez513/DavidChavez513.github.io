@@ -6,6 +6,7 @@
     text-decoration: none;
     text-align: center;
     font-weight: bold;
+    font-size: 1.3rem;
 
     flex: 1 1 calc(15%); /* Ajusta automáticamente al espacio */
     text-align: center;
@@ -20,7 +21,7 @@
 
 .button-link:hover {
 
-    border-radius: 1.5rem;
+    border-radius: .5rem;
 
     background: var(--background-buttons-color);
     color: var(--footer-text-color);
@@ -41,14 +42,14 @@
 
     width: 25%;
     margin: 0.5rem 0.5rem;
-    padding: 0.7rem;
+    padding: 2rem;
 
     color: var(--headers-text-color);
 }
 
 .photo-text-button:hover {
 
-    border-radius: 3rem;
+    border-radius: .5rem;
     background: var(--background-buttons-color);
     color: var(--footer-text-color);
 }

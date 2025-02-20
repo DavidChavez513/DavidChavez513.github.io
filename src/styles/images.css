@@ -13,5 +13,12 @@
     
     /* Space image */
     margin: 1rem 1rem;
-    padding: 1rem;
+    width: 25%;
+}
+
+.github-logo-small {
+    
+    /* Space image */
+    margin: 1rem 1rem;
+    width: 5%;
 }

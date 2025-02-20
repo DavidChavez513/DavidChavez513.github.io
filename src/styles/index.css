@@ -53,11 +53,11 @@ footer {
     padding: 1% 0.5%;
 
     /* Center objects */
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
 
     /* Colors and style */
-    background: var(--primary-color);
+    /* background: var(--primary-color); */
     color: var(--footer-text-color);
 }
